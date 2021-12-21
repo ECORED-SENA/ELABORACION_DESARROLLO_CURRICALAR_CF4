@@ -1,8 +1,8 @@
 export default {
   global: {
-    componenteFormativo: 'Definición de la estrategia digital',
+    componenteFormativo: 'Planeación Pedagógica',
     descripcionCurso:
-      'Apreciado aprendiz, ha llegado el momento de aterrizar una idea y poder integrar con tecnología, por ello en esta unida de realizar un modelo canvas básico con integración de tecnología y presentarlo con técnicas para un pitch efectivo de tu idea de negocio.',
+      'A través del desarrollo de este componente adquirirá elementos conceptuales y prácticos que le permitirán elaborar la planeación pedagógica en el procedimiento de desarrollo curricular.',
     imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },

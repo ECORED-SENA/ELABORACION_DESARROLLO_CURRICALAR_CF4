@@ -1,1 +1,1 @@
-module.exports = 'Definición de la estrategia digital'
+module.exports = 'Planeación Pedagógica'

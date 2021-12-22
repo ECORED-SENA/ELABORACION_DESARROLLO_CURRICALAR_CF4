@@ -22,7 +22,7 @@
               .anexo__icono
                 img(src="@/assets/template/icono-link.svg")
               .anexo__texto
-                p #[strong Enlace web.] Consideraciones generales de tratamiento clínico del paciente con COVID-19 en el servicio de urgencias
+                p #[strong Enlace web.] Prioridades en la planeación pedagógica.
           .col-4.d-none.d-lg-flex
             figure
               img(src='@/assets/template/tema-0-1.svg', alt='Texto que describa la imagen').w-75.margin-0-auto

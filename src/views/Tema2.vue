@@ -579,7 +579,7 @@
                 figure
                   img(src="@/assets/template/tema-2-58.png", alt="Texto que describa la imagen")
                 .text.text-card
-                  .row.px-1.pt-1
+                  .row
                     figure.d-none-mov
                       img(src="@/assets/template/tema-2-59.png", alt="Texto que describa la imagen")
     

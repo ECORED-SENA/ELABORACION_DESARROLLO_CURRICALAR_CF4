@@ -5,7 +5,7 @@
     .titulo-principal
       .titulo-principal__numero
         span 2
-      h1 Presentación de una propuesta
+      h1 Elaboración de la planeación pedagógica
     
     .row.mt-4
       .col-2.col-xl-1.d-none.d-lg-flex.align-self-center
@@ -13,7 +13,7 @@
           img(src='@/assets/template/tema-2-1.svg', alt='Texto que describa la imagen').margin-0-auto.floating
       .col-12.col-lg-10.col-xl-11.align-self-center
         p El Sistema Integrado de Gestión y Autocontrol SENA - SIGA, incluye dentro de su módulo de Documentos, el formato GFPI-F-134 Planeación Pedagógica Proyecto Formativo. El recurso puede ser encontrado en el siguiente
-        a.anexo.mb-4.mb-lg-0.mt-4(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+        a.anexo.mb-4.mb-lg-0.mt-4(href="http://compromiso.sena.edu.co/" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-link.svg")
           .anexo__texto
@@ -25,12 +25,13 @@
           p.mt-1.fst-italic Sistema CompromISO - SENA
         figure
           img(src='@/assets/template/tema-2-2.png', alt='Texto que describa la imagen')
+          figcaption Nota: GFPI-AN-006 Conformación de Equipos de Desarrollo Curricular de Programas a Las Modalidades Virtual y a Distancia
     p.mt-5 De acuerdo con las necesidades e interés plasmados por el equipo responsable del diseño curricular  en el programa de formación complementaria o de formación titulada, es que se debe estructurar la Planeación Pedagógica como la base para el desarrollo de la formación, revise la ruta a continuación.
     .row.mt-4
       .col-10.offset-1
         .titulo-sexto.color-primario
           h5 Figura 4
-          p.mt-1.fst-italic Sistema CompromISO - SENA
+          p.mt-1.fst-italic Ruta de la Planeación Pedagógica
     .row.mb-5.text-center
       .col-6.col-sm-4.col-xl-3.mb-4.mb-xl-0.tarjeta-contenedor
         .tarjeta.tarjeta-flip.color-acento-botones(@mouseover="indicadorTarjetaFlip = false")
@@ -44,17 +45,7 @@
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/template/tema-2-4.png')})`}")
             .tarjeta-flip__contenido.p-4
-              p Ambientes de aprendizaje tipificados              
-              ul.lista-ul.mt-3
-                li 
-                  i.fas.fa-angle-right
-                  | Ambiente
-                li 
-                  i.fas.fa-angle-right
-                  | Materiales
-                li 
-                  i.fas.fa-angle-right
-                  | Instructores
+              p.text-center.py-5 Resultados de Aprendizaje 
 
       .col-6.col-sm-4.col-xl-3.mb-4.mb-xl-0.tarjeta-contenedor
         .tarjeta.tarjeta-flip.color-acento-botones(@mouseover="indicadorTarjetaFlip = false")
@@ -62,7 +53,8 @@
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/template/tema-2-5.png')})`}")
             .tarjeta-flip__contenido.p-4.d-flex.align-items-center.justify-content-center
-              p.text-center.py-5 Criterios de Evaluación
+              p.text-center Actividades de Aprendizaje a desarrollar 
+              
 
       .col-6.col-sm-4.col-xl-3.mb-4.mb-xl-0.tarjeta-contenedor
         .tarjeta.tarjeta-flip.color-acento-botones(@mouseover="indicadorTarjetaFlip = false")
@@ -70,7 +62,18 @@
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/template/tema-2-6.png')})`}")
             .tarjeta-flip__contenido.p-4.d-flex.align-items-center.justify-content-center
-              p.text-center.py-5 Resultados de Aprendizaje
+              p Ambientes de aprendizaje tipificados              
+                ul.lista-ul.mt-3
+                  li 
+                    i.fas.fa-angle-right
+                    | Ambiente
+                  li 
+                    i.fas.fa-angle-right
+                    | Materiales
+                  li 
+                    i.fas.fa-angle-right
+                    | Instructores
+              
 
       .col-6.col-sm-4.col-xl-3.mb-4.mb-xl-0.tarjeta-contenedor.mt-xl-3
         .tarjeta.tarjeta-flip.color-acento-botones(@mouseover="indicadorTarjetaFlip = false")
@@ -86,7 +89,15 @@
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/template/tema-2-8.png')})`}")
             .tarjeta-flip__contenido.p-4.d-flex.align-items-center.justify-content-center
-              p.text-center Evidencias de aprendizaje
+              p.text-center.pt-xl-4 Duración
+                ul.lista-ul.mt-3.text-start
+                  li 
+                    i.fas.fa-angle-right
+                    | Horas Trabajo Directo
+                  li 
+                    i.fas.fa-angle-right
+                    | Horas Trabajo Independiente
+              
 
       .col-6.col-sm-4.col-xl-3.offset-sm-2.offset-xl-0.mb-xl-0.tarjeta-contenedor.mt-xl-3
         .tarjeta.tarjeta-flip.color-acento-botones(@mouseover="indicadorTarjetaFlip = false")
@@ -94,22 +105,17 @@
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/template/tema-2-9.png')})`}")
             .tarjeta-flip__contenido.p-4.d-flex.align-items-center.justify-content-center
-              p.text-center Actividades de Aprendizaje a desarrollar 
+              p.text-center.py-5 Criterios de Evaluación
+              
 
       .col-6.col-sm-4.col-xl-3.smb-xl-0.tarjeta-contenedor.mt-xl-3
         .tarjeta.tarjeta-flip.color-acento-botones(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/template/tema-2-10.png')})`}")
-            .tarjeta-flip__contenido.p-4
-              p.text-center.pt-xl-4 Duración
-              ul.lista-ul.mt-3.text-start
-                li 
-                  i.fas.fa-angle-right
-                  | Horas Trabajo Directo
-                li 
-                  i.fas.fa-angle-right
-                  | Horas Trabajo Independiente
+            .tarjeta-flip__contenido.p-4.d-flex.align-items-center.justify-content-center
+              p.text-center Evidencias de aprendizaje
+              
     .row.mt-4      
       .col-12.col-lg-10.col-xl-11.align-self-center
         p Para abordar la elaboración de la planeación pedagógica, se consideran los elementos en el orden presentado en la figura.
@@ -123,10 +129,11 @@
           template(v-slot:imagen)
             figure
               img(src='@/assets/template/tema-2-12.png', alt='Texto que describa la imagen')
+              figcaption Nota: (Páez Luna, 2012)
 
           div(x="47.4%" y="4.4%" tooltip="Ambientes de Aprendizaje Tipificados" numero="")
             .h4 Ambientes de Aprendizaje Tipificados
-            p son conjunto de condiciones que propician y facilitan el logro de los objetivos de la Formación Profesional Integral, conformado por:
+            p Son conjunto de condiciones que propician y facilitan el logro de los objetivos de la Formación Profesional Integral, conformado por:
             p.mt-3 Componente físico o de infraestructura, componente tecnológico y componente pedagógico, este último mediante estrategias como el trabajo en equipo, la investigación el acceso y utilización TIC que posibilitan junto con la mediación del instructor, una dinámica de transferencia creativa del conocimiento a situaciones reales.
           div(x="66%" y="24%" tooltip="Estrategias Didácticas Activas" numero="")
             .h4 Estrategias Didácticas Activas
@@ -149,8 +156,7 @@
           div(x="27%" y="20%" tooltip="Actividades de Aprendizaje" numero="")
             .h4 Actividades de Aprendizaje
             p Son recursos para conseguir el aprendizaje y no sólo medios para comprobarlo, esta distinción permite clasificar las actividades de aprendizaje en dos categorías: las que meramente reproducen y las que aplican la información.
-    p.mt-4 GFPI-AN-006 Conformación de Equipos de Desarrollo Curricular de Programas a Las Modalidades Virtual y a Distancia
-    p.mt-3 La interrelación sistémica converge en el concepto de Competencia propia del SENA y enmarcada en los principios de la Formación Profesional Integral. En la figura siguiente se observan los tipos de competencias del Modelo SENA.
+    p.mt-4 La interrelación sistémica converge en el concepto de Competencia propia del SENA y enmarcada en los principios de la Formación Profesional Integral. En la figura siguiente se observan los tipos de competencias del Modelo SENA.
     .row.mt-4
       .col-10.offset-1
         .titulo-sexto.color-primario
@@ -196,7 +202,7 @@
         p.mt-4 De acuerdo con la guía de Diseño curricular 
         .row
           .col-10
-            a.anexo.mb-4.mb-lg-0.mt-4(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+            a.anexo.mb-4.mb-lg-0.mt-4(:href="obtenerLink('/downloads/GFPI-G-008_GUIA_DISENO_CURRICULAR.pdf')" target="_blank")
                   .anexo__icono
                     img(src="@/assets/template/icono-pdf.svg")
                   .anexo__texto
@@ -277,7 +283,7 @@
         p Recordemos que un Programa de Formación Titulada  de acuerdo con el programa de Gestión de Formación Profesional Integral en su Guía de Desarrollo Curricular código GFPI-G-012 V3 
         .row.mt-3
           .col-10
-            a.anexo.mb-4.mb-lg-0.mt-4(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+                a.anexo.mb-4.mb-lg-0.mt-4(:href="obtenerLink('/downloads/GFPI-G-012_Guia_Desarrollo_Curricular.pdf')" target="_blank")
                   .anexo__icono
                     img(src="@/assets/template/icono-pdf.svg")
                   .anexo__texto
@@ -412,7 +418,8 @@
       .col-6.col-md-4.col-lg-2.offset-2.offset-md-4.offset-lg-0.py-5.px-3.bg-amarillo.rounded-15.text-center
         .h4.text-morado Condición
         .h5.mb-0.mt-2 (máximo 2)
-    figcaption.mt-3 Nota:. Tomado de Guía de Desarrollo de Formación por módulos GFPI-G-029. v.03
+    figcaption.mt-3 Nota: Tomado de Guía de Desarrollo de Formación por módulos GFPI-G-029. v.03
+    p.mt-3 Como requisito para mantener el carácter sistémico y coherencia del conjunto de enunciados.
     .h4.mt-5 Momento 2: Acciones a realizar
     .row.mt-4      
       .col-2.col-xl-1.d-none.d-lg-flex.align-self-center
@@ -555,25 +562,35 @@
           img(src='@/assets/template/tema-2-55.svg', alt='Texto que describa la imagen').margin-0-auto.floating
       .col-12.col-lg-10.col-xl-11.align-self-center
         p Para el Diseño de las Actividades de Aprendizaje no existe una regla matemática a la hora de calcular el número adecuado de Actividades de Aprendizaje con respecto a uno o varios Resultados de Aprendizaje. Depende de dos factores:
-    .row.mt-5
-      .col-8.col-lg-6.offset-2.offset-lg-0.position-relative.px-0
-        .row.px-4
-          figure.px-0
-            img(src='@/assets/template/tema-2-56.png', alt='Texto que describa la imagen')
-          figure.image-cover
-            img(src='@/assets/template/tema-2-57.png', alt='Texto que describa la imagen')
-      .col-8.col-lg-6.offset-2.offset-lg-0.position-relative.px-0
-        .row.px-4
-          figure.px-0
-            img(src='@/assets/template/tema-2-58.png', alt='Texto que describa la imagen')
-          figure.image-cover
-            img(src='@/assets/template/tema-2-59.png', alt='Texto que describa la imagen')
+    
+    .row.justify-content-center.mt-5
+          .col-lg-6
+            .row.px-2.pt-2.h-100
+              .col-12.m-0.nav-holder3.align-items-center.rounded-15.px-0
+                figure
+                  img(src="@/assets/template/tema-2-56.png", alt="Texto que describa la imagen")
+                .text.text-card
+                  .row
+                    figure.d-none-mov
+                      img(src="@/assets/template/tema-2-57.png", alt="Texto que describa la imagen")
+          .col-lg-6
+            .row.px-2.pt-2.h-100
+              .col-12.m-0.nav-holder3.align-items-center.rounded-15.px-0
+                figure
+                  img(src="@/assets/template/tema-2-58.png", alt="Texto que describa la imagen")
+                .text.text-card
+                  .row.px-1.pt-1
+                    figure.d-none-mov
+                      img(src="@/assets/template/tema-2-59.png", alt="Texto que describa la imagen")
+    
+
     p.mt-5 Con base en esto, se darían los siguientes casos:
     .row.mt-5
       .col-8.col-lg-6.offset-2.offset-lg-3
         figure
           img(src='@/assets/template/tema-2-60.png', alt='Texto que describa la imagen')
-    .row.mt-5
+    p.mt-5 Para cerrar el componente cuantitativo, tenga en cuenta los siguientes aspectos:
+    .row.mt-3
       .col-12.col-lg-7.align-self-center
         ul.lista-ul.mt-3
           li 

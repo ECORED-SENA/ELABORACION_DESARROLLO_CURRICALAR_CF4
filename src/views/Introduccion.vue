@@ -13,12 +13,12 @@
       p.mt-3 En el siguiente recurso, lo invitamos a revisar la introducción a este proceso.
       figure.mt-4
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/HpphTgIUMLI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       .col-12.mt-4.p-5.bg-amarillo-claro   
         .row
           .col-12.col-lg-8.align-self-center
             p Realizar una planeación pedagógica nos invita a pensar en las prioridades que se deben atender en el proceso formativo, por ello, lo invitamos a reflexionar en torno a la lectura que encuentra en el enlace:
-            a.anexo.mb-4.mb-lg-0.mt-4(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+            a.anexo.mb-4.mb-lg-0.mt-4(href="https://innovationforsocialchange.org/un-cuento-sobre-como-establecer-prioridades-cuales-son-las-piedras-grandes-en-tu-vida/" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-link.svg")
               .anexo__texto

@@ -135,25 +135,25 @@
             .h4 Ambientes de Aprendizaje Tipificados
             p Son conjunto de condiciones que propician y facilitan el logro de los objetivos de la Formación Profesional Integral, conformado por:
             p.mt-3 Componente físico o de infraestructura, componente tecnológico y componente pedagógico, este último mediante estrategias como el trabajo en equipo, la investigación el acceso y utilización TIC que posibilitan junto con la mediación del instructor, una dinámica de transferencia creativa del conocimiento a situaciones reales.
-          div(x="66%" y="24%" tooltip="Estrategias Didácticas Activas" numero="")
+          div(x="66%" y="22%" tooltip="Estrategias Didácticas Activas" numero="")
             .h4 Estrategias Didácticas Activas
             p Se conciben como los procedimientos (métodos, técnicas actividades, secuencias y recursos que desarrollan los instructores y los aprendices para organizar las acciones del proceso formativo de manera consciente, con el fin de construir y lograr metas previstas e imprevistas en el proceso de enseñanza aprendizaje, adaptando a los participantes de manera colaborativa y significativa.
-          div(x="91%" y="46%" tooltip="Duración" numero="")
+          div(x="90%" y="44%" tooltip="Duración" numero="")
             .h4 Duración
             p Hace referencia al desarrollo de las actividades de aprendizaje y se reconoce como la duración de tiempo transcurrido entre el inicio y el final de una actividad planeada.
-          div(x="81%" y="66%" tooltip="Criterios de Evaluación" numero="")
+          div(x="81%" y="62%" tooltip="Criterios de Evaluación" numero="")
             .h4 Criterios de Evaluación
             p Son la expresión de logro del aprendiz en el proceso de aprendizaje, permite la emisión de un juicio evaluativo respecto a la aprehensión y desarrollo de capacidades con relación a un resultado de aprendizaje y los conocimientos de proceso de este resultado. Promueven la autoevaluación, la evaluación y la heteroevaluación durante el proceso de aprendizaje.  La totalidad de los criterios de evaluación de una competencia responden a la formación técnica y al desarrollo integral del aprendiz acorde con la política institucional.
-          div(x="89%" y="86%" tooltip="Evidencias de Aprendizaje" numero="")
+          div(x="89%" y="81%" tooltip="Evidencias de Aprendizaje" numero="")
             .h4 Evidencias de Aprendizaje
             p Son referentes, que permiten identificar los logros alcanzados por los Aprendices; pueden ser de conocimiento, de desempeño y de producto, las cuales se relacionan estrechamente y de manera integral, con el aprender a aprender, aprender a hacer y aprender a ser.
-          div(x="16%" y="72%" tooltip="Competencia" numero="")
+          div(x="16%" y="68%" tooltip="Competencia" numero="")
             .h4 Competencia 
             p Es la capacidad de un buen desempeño en contextos complejos y auténticos. Se basa en la integración y activación de conocimientos, habilidades, destrezas, actitudes y valores.
-          div(x="10%" y="40%" tooltip="Resultados de Aprendizaje" numero="")
+          div(x="9%" y="37%" tooltip="Resultados de Aprendizaje" numero="")
             .h4 Resultados de Aprendizaje
             p Son enunciados acerca de lo que se espera que el estudiante sea capaz de hacer, comprender y/o sea capaz de demostrar una vez terminado un proceso formativo.
-          div(x="27%" y="20%" tooltip="Actividades de Aprendizaje" numero="")
+          div(x="27%" y="19%" tooltip="Actividades de Aprendizaje" numero="")
             .h4 Actividades de Aprendizaje
             p Son recursos para conseguir el aprendizaje y no sólo medios para comprobarlo, esta distinción permite clasificar las actividades de aprendizaje en dos categorías: las que meramente reproducen y las que aplican la información.
     p.mt-4 La interrelación sistémica converge en el concepto de Competencia propia del SENA y enmarcada en los principios de la Formación Profesional Integral. En la figura siguiente se observan los tipos de competencias del Modelo SENA.
@@ -166,7 +166,7 @@
       .col-8.offset-2
         figure
           img(src='@/assets/template/tema-2-13.png', alt='Texto que describa la imagen')
-        figcaption.mt-3 Nota: Grafico de la estructura general  de las competencias en el SENA.
+        figcaption.mt-3 Nota: Gráfico de la estructura general  de las competencias en el SENA.
     .row.mt-5.zoom-in
       .col-12.col-lg-7
         p De acuerdo a la Figura 5. Modelo de Competencia SENA, la Competencia laboral (Páez Luna, 2012) surge como respuesta a la capacidad de una persona para desempeñar funciones productivas en contextos variables, con base en los estándares de calidad establecidos por el sector productivo; en esta concepción subyace la intencionalidad institucional de responder pertinentemente a las necesidades del sector productivo en términos de la cualificación de los trabajadores, a través del cumplimiento de dos parámetros: uno, la formación a la medida según necesidades de cada sector y dos, los estándares de calidad establecidos y se plasman en el diseño de la Norma de Competencia Laboral, fuente primaria del diseño de los Programas de Formación.
@@ -191,7 +191,7 @@
         ul.lista-ul.mt-3
           li 
             i.fas.fa-angle-right
-            | Las Competencias Básicas, a los Resultados de Aprendizaje de carácter Básico ó RAB
+            | Las Competencias Básicas, a los Resultados de Aprendizaje de carácter Básico o RAB
           li 
             i.fas.fa-angle-right
             | Las Competencias Transversales, a los Resultados de Aprendizaje de carácter Transversal o RAT
@@ -211,7 +211,7 @@
       .col-12.col-lg-7
         p Para seleccionar las competencias específicas, el Equipo de Diseño Curricular realiza la revisión de Normas Sectoriales de Competencia Laboral NSCL nacionales e internacionales vigentes y registradas en el Sistema de Gestión Académico Administrativo, Estructuras Funcionales de la Ocupación (EFO) o Cualificaciones y que den respuesta a la ocupación.
         p.mt-3 Las competencias transversales serán obligatorias para los programas de formación técnicos y tecnológicos. Para los programas tecnológicos se incluirá adicionalmente la competencia de investigación.
-        p.mt-3 Las competencias clave son obligatorias en programas tecnológicos y opcionales en los programas laborales, su inclusión la define el Equipos de Diseño Curricular basando su decisión en las características del programa de formación y en la naturaleza de las competencias específicas. La búsqueda en el Sistema de Gestión Académico Administrativo de estas competencias se puede realizar por palabra clave o código, estas competencias se describen a continuación:
+        p.mt-3 Las competencias clave son obligatorias en programas tecnológicos y opcionales en los programas laborales, su inclusión la define el Equipo de Diseño Curricular basando su decisión en las características del programa de formación y en la naturaleza de las competencias específicas. La búsqueda en el Sistema de Gestión Académico Administrativo de estas competencias se puede realizar por palabra clave o código, estas competencias se describen a continuación:
       .col-5.d-none.d-lg-flex.align-self-center
         figure
           img(src='@/assets/template/tema-2-17.png', alt='Texto que describa la imagen')
@@ -288,7 +288,7 @@
                     img(src="@/assets/template/icono-pdf.svg")
                   .anexo__texto
                     p #[strong Anexo.] GFPI-G-012_Guia_Desarrollo_Curricular
-        p.mt-3 Es una modalidad de la formación profesional integral que imparte el SENA, dirigida a desarrollar y fortalecer las competencias del recurso humano, comprende las actividades de formación, entrenamiento y reentrenamiento en temas específicos y se caracteriza por que las acciones de formación conducen al otorgamiento de un título de formación profesional.
+        p.mt-3 Es una modalidad de la formación profesional integral que imparte el SENA, dirigida a desarrollar y fortalecer las competencias del recurso humano, comprende las actividades de formación, entrenamiento y reentrenamiento en temas específicos y se caracteriza porque las acciones de formación conducen al otorgamiento de un título de formación profesional.
     .row.mt-5.zoom-in
       .col-12.col-lg-7
         p En el SENA se cuenta con los equipos de Desarrollo Curricular  quienes acuerdan los períodos para sus secuencias de planeación pedagógica, quienes consideran y acuerdan conveniente mantener unos períodos regulares, ya sean trimestrales, mensuales o semanales.  Los criterios para estipular la duración de la planeación quedan a discreción del Equipo, siempre en coherencia con la duración estipulada para el desarrollo de las competencias contempladas en el Programa de Formación.
@@ -378,7 +378,7 @@
           div(x="42%" y="5%" tooltip="Saber conocer" numero=" ")
             .col-12
               .h4 Actitudinal: (SER)
-              p Comprende las actuaciones del aprendiz frente a el mismo, su entorno natural y social, buscando el desarrollo de su autonomía.
+              p Comprende las actuaciones del aprendiz frente a él mismo, su entorno natural y social, buscando el desarrollo de su autonomía.
 
       .col-8.col-lg-4.offset-2.offset-lg-0.modal-amarillo
         ImagenInfograficaB.color-secundario.mb-5

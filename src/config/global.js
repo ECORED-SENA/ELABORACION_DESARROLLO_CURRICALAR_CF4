@@ -118,7 +118,7 @@ export default {
       link: 'https://eduteka.icesi.edu.co/articulos/TaxonomiaBloomCuadro',
     },
     {
-      referencia: 'MEN (2015). Decreto 1330 de 2015.',
+      referencia: 'MEN (2015). Decreto 1330 de 2019.',
       link:
         'https://www.mineducacion.gov.co/1759/articles-387348_archivo_pdf.pdf',
     },
